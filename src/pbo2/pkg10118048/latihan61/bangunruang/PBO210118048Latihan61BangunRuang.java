@@ -23,20 +23,23 @@ public class PBO210118048Latihan61BangunRuang {
         Kerucut kerucut = new Kerucut();
         
         bola.setR(7);
-        System.out.println("Jari-jari Bola = " + bola.getR() + " cm");
-        System.out.printf("Volume Bola = %.2f cm\u00B3%n%n" , bola.hitungVolume());
+        System.out.println("=====Bola=====");
+        System.out.println("Jari-jari = " + bola.getR() + " cm");
+        System.out.printf("Volume = %.2f cm\u00B3%n%n" , bola.hitungVolume());
         
         tabung.setR(10);
         tabung.setT(21);
-        System.out.println("Jari-jari Tabung = " + tabung.getR() + " cm");
-        System.out.println("Tinggi Tabung = " + tabung.getT() + " cm");
-        System.out.printf("Volume Tabung = %.2f cm\u00B3%n%n" , tabung.hitungVolume());
+        System.out.println("=====Tabung=====");
+        System.out.println("Jari-jari  = " + tabung.getR() + " cm");
+        System.out.println("Tinggi = " + tabung.getT() + " cm");
+        System.out.printf("Volume = %.2f cm\u00B3%n%n" , tabung.hitungVolume());
         
         kerucut.setR(9);
         kerucut.setT(14);
-        System.out.println("Jari-jari Kerucut = " + kerucut.getR() + " cm");
-        System.out.println("Tinggi Kerucut = " + kerucut.getT() + " cm");
-        System.out.printf("Volume Kerucut = %.2f cm\u00B3%n" , kerucut.hitungVolume());
+        System.out.println("=====Kerucut=====");
+        System.out.println("Jari-jari = " + kerucut.getR() + " cm");
+        System.out.println("Tinggi = " + kerucut.getT() + " cm");
+        System.out.printf("Volume = %.2f cm\u00B3%n" , kerucut.hitungVolume());
     }
 
 }
